@@ -1,0 +1,4 @@
+plant_code,material,quantity,unit,date
+PL01,Diesel,5000,L,2024-01-15
+PL02,Petrol,3200,L,2024-02-01
+PL01,Diesel,150000,L,2024-03-10
