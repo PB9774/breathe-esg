@@ -2,6 +2,7 @@ from django.urls import path
 from django.http import HttpResponse
 from django.conf import settings
 from django.conf.urls.static import static
+from django.contrib import admin
 from ingestion.views import (
     upload_sap, upload_utility, upload_travel,
     list_records, approve_record, flag_record
@@ -150,6 +151,7 @@ def homepage(request):
 
 urlpatterns = [
     path('', homepage),
+    path('admin/', admin.site.urls),
     path('api/upload/sap/',                upload_sap),
     path('api/upload/utility/',            upload_utility),
     path('api/upload/travel/',             upload_travel),
