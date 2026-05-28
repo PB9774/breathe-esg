@@ -145,3 +145,7 @@ CORS_ALLOW_HEADERS = [
     "origin",
 ]
 
+import os
+ALLOWED_HOSTS = ['*']
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_URL = '/static/'
