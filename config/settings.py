@@ -128,7 +128,7 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS settings
 CORS_ALLOWED_ORIGINS = [
-    "https://your-netlify-url.netlify.app",
+    "https://celadon-malabi-4f1745.netlify.app",
 ]
 CORS_ALLOW_ALL_ORIGINS = False
 
