@@ -1,0 +1,4 @@
+origin,destination,distance_km,mode,traveler
+DEL,LHR,6700,flight,Amit Shah
+BOM,DXB,1930,flight,Priya Nair
+DEL,MUM,1400,train,Rahul Gupta
